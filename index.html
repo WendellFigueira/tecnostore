@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com logo e navegação -->
+    <header>
+        <img src="logo.png" alt="Logo TecnoStore" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#comunicacao">Fale Conosco</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção sobre a empresa -->
+    <section id="sobre">
+        <h1>Sobre a TecnoStore</h1>
+        <p>A TecnoStore é a sua loja de tecnologia de confiança, oferecendo uma vasta gama de laptops, smartphones e acessórios de última geração. Nosso compromisso é trazer os melhores produtos e um atendimento excepcional para nossos clientes.</p>
+    </section>
+
+    <!-- Seção de produtos -->
+    <section id="produtos">
+        <h1>Produtos</h1>
+
+        <h2>Laptops</h2>
+        <div class="produtos-grid">
+            <div class="produto-item">
+                <img src="images/laptop1.webp" alt="Laptop A">
+                <h3>Notebook Dell Inspiron 15 I15-I120K-A35P</h3>
+                <p>Intel Core i5 16GB RAM SSD 1TB 15,6" Full HD Windows 11 12MB 210-BNFN</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/laptop2.webp" alt="Laptop B">
+                <h3>Notebook Acer Aspire 5</h3>
+                <p>Intel Core i5 12450H 8GB RAM 512GB SSD 15,6” Full HD Windows 11 A515-57-565J</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/laptop3.jpg" alt="Laptop C">
+                <h3>Notebook Lenovo IdeaPad 1i</h3>
+                <p>Intel Core i7-1255U 16GB 512GB SSD Windows 11 Home 15.6" 82VY000NBR</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/laptop4.webp" alt="Laptop D">
+                <h3>Notebook Samsung Galaxy Book4</h3>
+                <p>Intel Core i5 8GB RAM SSD 512GB 15,6" Full HD Windows 11 NP750XGJ-KG3BR</p>
+            </div>
+        </div>
+
+        <h2>Smartphones</h2>
+        <div class="produtos-grid">
+            <div class="produto-item">
+                <img src="images/smartphone1.webp" alt="Smartphone A">
+                <h3>Smartphone Samsung Galaxy S23</h3>
+                <p>256GB Preto 5G 8GB RAM 6,1” Câm Tripla + Selfie 12MP</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/smartphone2.webp" alt="Smartphone B">
+                <h3>Smartphone Motorola Moto G24</h3>
+                <p>128GB Rosa 4GB + 4GB RAM Boost 6,6" Câm. Dupla + Selfie 8MP Dual Chip</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/smartphone3.jpg" alt="Smartphone C">
+                <h3>Apple iPhone 14</h3>
+                <p>128GB Estelar 6,1” 12MP iOS 5G</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/smartphone4.webp" alt="Smartphone D">
+                <h3>Smartphone celular Xiaomi Redmi 13C</h3>
+                <p>Azul Dual SIM de 256GB / 8GB RAM de 6.74" 50 + 2 + 2MP / 8MP</p>
+            </div>
+        </div>
+
+        <h2>Acessórios</h2>
+        <div class="produtos-grid">
+            <div class="produto-item">
+                <img src="images/access1.webp" alt="Acessório A">
+                <h3>Cabo Carregador de Dados</h3>
+                <p>Compatível iPhone 6 7 8 X Xr Xs 11 12 13 14 15 Pro - Altomex</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/access2.webp" alt="Acessório B">
+                <h3>Teclado Gamer</h3>
+                <p>Semi Mecânico Rise Mode G2 Mini, RGB, Layout 60% - RM-TG-02-B</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/access3.webp" alt="Acessório C">
+                <h3>Filtro de Linha</h3>
+                <p>6 Tomadas Preto ou Branco Régua 110/220v Bivolt Universal C/ Protetor Descarga de Energia - OPEN ZEE</p>
+            </div>
+            <div class="produto-item">
+                <img src="images/access4.webp" alt="Acessório D">
+                <h3>Cartão de Memória Kingston</h3>
+                <p>Canvas Select Plus MicroSD 128GB, com Adaptador, para Câmeras Automáticas/Dispositivos Android - SDCS2/128GB</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de comunicação -->
+    <section id="comunicacao">
+        <h1>Fale Conosco</h1>
+        <p>Entre em contato conosco através do formulário abaixo:</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Seção FAQ -->
+    <section id="faq">
+        <h1>FAQ - Perguntas Frequentes</h1>
+        <h3>1. Como posso comprar um produto?</h3>
+        <p>Você pode comprar diretamente em nossa loja online ou entrar em contato conosco para mais informações.</p>
+
+        <h3>2. Quais são os métodos de pagamento aceitos?</h3>
+        <p>Aceitamos pagamentos via cartão de crédito, débito e boleto bancário.</p>
+
+        <h3>3. Vocês oferecem garantia nos produtos?</h3>
+        <p>Sim, todos os nossos produtos possuem garantia de fábrica.</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 TecnoStore. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
